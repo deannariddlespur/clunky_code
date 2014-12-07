@@ -1,4 +1,5 @@
 clunky_code
 ===========
+simple php-html form application
 
-Code from my Cpanel as I clean it out
+dandewebwonders.com/assignment1/Assignment20/Assignment20.html
