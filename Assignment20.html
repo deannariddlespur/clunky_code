@@ -1,0 +1,64 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+"http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html lang="EN" dir="ltr" xmlns="http://www.w3.org/1999/xhtml">
+<title>  Major Project 1  </title>
+
+<link rel = "stylesheet"
+        type = "text/css"
+        href = "Assignment20.css" />
+<body>
+<h1>The Conference !</h1>
+<h3>Fill out this form to register for the conference.</h3>
+
+ <form action="Assignment20.php" 
+       method="post">
+  <fieldset> 	
+	 <label> Name </label>
+	 <input type = "text"
+	        name = "Name" />           	 
+	<label>Address </label>
+	 <input type = "text"
+	        name = "Address" /> 	 
+	 <label>City </label>
+	 <input type = "text"
+	        name = "City" /> 			
+	 <label>State </label>
+	 <input type = "text"
+	        name = "State" /> 
+     <label>Zip </label>
+	 <input type = "text"
+	        name = "Zip" /> 
+     <label>E-Mail </label>
+	 <input type = "text"
+	        name = "EMail" />  	
+     <label>Company </label>
+	 <input type = "text"
+	        name = "Company" /> 				   
+  </fieldset>
+  <br>
+   Pick a track &nbsp
+ <select name = "track">
+  <option value = "Programming Track ">Programming Track</option>
+  <option value = "Networking Track">Networking Track</option>
+  <option value = "Security Track">Security Track</option>
+  <option value = "Web Track">Web Track</option>
+ </select>
+<br>
+	
+<h5>Check how many days you would like to go for</h5>
+		  
+	     <label>One Day </label> <input type = "checkbox" name = "chkOneDay" value = "100" />
+		 <label>Two Days</label> <input type = "checkbox" name="chkTwoDays" value = "175" /> 
+	     <label>Three Days</label> <input type = "checkbox" name="chkThreeDays" value = "225" />
+
+	 <br><br><br><br>&nbsp     		  
+  &nbsp &nbsp(Check only if you would like to have the meal plan included. &nbsp 1 Day = $50 &nbsp 2 Days = $75 &nbsp 3 Days = $100) 
+         <label> Meal Plan</label> <input type="checkbox" name="mealPlan" value="Yes" />
+<br><br>
+ <button type = "submit">
+    Click to register
+ </button>				
+
+ </form> 
+</body>
+</html>
